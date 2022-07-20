@@ -9,7 +9,7 @@ from PIL import Image
 col1, col2, col3 = st.columns([5,5,1])
 
 with col1:
-    url = 'www.e4g.polimi.it//'
+    url = 'https://www.e4g.polimi.it//'
 
     if st.button('ABOUT US'):
         webbrowser.open_new_tab(url)
