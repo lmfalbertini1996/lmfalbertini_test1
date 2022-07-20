@@ -50,7 +50,7 @@ st.header('What are you looking for ?') ## si può cambiare colore ?
 col1, col2 = st.columns([5,1])
 
 with col1:
-    with open("layout.pdf", "rb") as pdf_file:
+    with open("Layout.pdf", "rb") as pdf_file:
         PDFbyte = pdf_file.read()
 
     st.download_button(label="Download FAC-SIMILE",
