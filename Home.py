@@ -9,19 +9,16 @@ from PIL import Image
 col1, col2, col3 = st.columns([5,5,1])
 
 with col1:
-    url1 = 'www.e4g.polimi.it//'
-    if st.button('ABOUT US'):
-        webbrowser.open_new_tab(url1)
+    url1 = '[ABOUT US](http://www.e4g.polimi.it)'
+    st.markdown(url1, unsafe_allow_html=True)
 
 with col2:
-    url2 = 'www.e4g.polimi.it/?page_id=68'
-    if st.button('PROJECTS'):
-        webbrowser.open_new_tab(url2)
+    url2 = '[PROJECTS](http://www.e4g.polimi.it/?page_id=68)'
+    st.markdown(url2, unsafe_allow_html=True)
 
 with col3:
-    url3 = 'www.e4g.polimi.it/?page_id=487'
-    if st.button('RESEARCH'):
-        webbrowser.open_new_tab(url3)
+    url3 = '[RESEARCH](http://www.e4g.polimi.it/?page_id=487)'
+    st.markdown(url3, unsafe_allow_html=True)
 
 st.write("""***""")
 
