@@ -90,6 +90,11 @@ if st.button('SDG 7'):
 
 st.write("""***""")
 
+discourse_url = "discuss.streamlit.io"
+topic_id = 8061
+
+st_discourse(discourse_url, topic_id)
+
 st.write("""
         ## Contact us
 Darlain Edeme: darlain.edeme@polimi.it;
