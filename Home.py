@@ -88,7 +88,7 @@ url4 = 'sdgs.un.org/goals/goal7'
 if st.button('SDG 7'):
     webbrowser.open_new_tab(url4)
     
- st.write("""***""")
+st.write("""***""")
     
     st.title("PARTNERS")
 
@@ -96,8 +96,7 @@ col1, col2 = st.columns([5,2])
 with col1:
     st.write("""
             ##  FONDAZIONE CARIPLO
-            
-             """)
+                         """)
 with col2:
     image = Image.open('FONDAZIONECARIPLO.png')
     st.image(image, use_column_width=True)
