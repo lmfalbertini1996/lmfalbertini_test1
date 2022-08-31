@@ -4,7 +4,7 @@
 import streamlit as st
 import altair as alt
 import webbrowser
-from streamlit_discourse import st_discourse
+#from streamlit_discourse import st_discourse
 from PIL import Image
 
 col1, col2, col3 = st.columns([5,5,1])
