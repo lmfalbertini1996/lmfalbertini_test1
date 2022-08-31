@@ -90,11 +90,12 @@ if st.button('SDG 7'):
     
 st.write("""***""")
     
-    st.title("PARTNERS")
+st.title("PARTNERS")
 
 col1, col2 = st.columns([5,2])
 with col1:
-    st.write("""
+
+st.write("""
             ##  FONDAZIONE CARIPLO
                          """)
 with col2:
