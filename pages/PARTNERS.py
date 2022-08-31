@@ -9,7 +9,7 @@ st.title("PARTNERS")
 st.write("""***""")
 
 st.write("""
-        # FONDAZIONE CARIPLO
+        ## FONDAZIONE CARIPLO
          """)
 
 st.write("""
@@ -20,10 +20,9 @@ url4 = 'https://www.fondazionecariplo.it/'
 if st.button('FONDAZIONE CARIPLO'):
     webbrowser.open_new_tab(url4)
     
-
-    st.write("""***""")
+st.write("""***""")
     
-    st.write("""
+st.write("""
         # ICEI
          """)
 
@@ -39,9 +38,9 @@ url5 = 'http://icei.it/'
 if st.button('ICEI'):
     webbrowser.open_new_tab(url5)
     
-    st.write("""***""")
+st.write("""***""")
 
-    st.write("""
+st.write("""
         # ENGREEN
          """)
 
