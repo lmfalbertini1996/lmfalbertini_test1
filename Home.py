@@ -48,7 +48,7 @@ st.write("""
         
           """)
 
-st.info("Click on the left sidebar menu to navigate to the different apps")
+st.info("Click on the left sidebar menu to navigate to the different Countries")
         
 st.write("""  
 
