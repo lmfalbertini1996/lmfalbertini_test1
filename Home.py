@@ -191,7 +191,7 @@ add_selectbox = st.sidebar.selectbox(
 st.sidebar.title("About")
 st.sidebar.info(
     """
-    Web App URL: <https://geospatial.streamlitapp.com>
-    GitHub repository: <https://github.com/giswqs/streamlit-geospatial>
+    Web App URL: <https://github.com/lmfalbertini1996/lmfalbertini_test1/blob/main/Home.py>
+    GitHub repository: <https://github.com/lmfalbertini1996/lmfalbertini_test1>
     """
 )
