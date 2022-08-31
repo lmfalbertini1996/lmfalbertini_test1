@@ -187,6 +187,11 @@ add_selectbox = st.sidebar.selectbox(
     ("Email", "Facebook", "Phone")
 )
 
-#add_selectbox = st.sidebar.selectbox(
- #   "What are you looking for ?",
-  #  ("DOWNLOAD FACSIMILE", "START")
+
+st.sidebar.title("About")
+st.sidebar.info(
+    """
+    Web App URL: <https://geospatial.streamlitapp.com>
+    GitHub repository: <https://github.com/giswqs/streamlit-geospatial>
+    """
+)
