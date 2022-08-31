@@ -17,7 +17,7 @@ with col2:
     st.markdown(url2, unsafe_allow_html=True)
 
 with col3:
-    url3 = '[RESEARCH](http://icei.it/)'
+    url3 = '[ICEI](http://icei.it/)'
     st.markdown(url3, unsafe_allow_html=True)
 
 st.write("""***""")
