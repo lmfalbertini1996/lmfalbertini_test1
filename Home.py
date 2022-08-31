@@ -46,6 +46,8 @@ st.write("""
        
         GISele (GIS for electrification) is a open source Python-based tool. It has been developed with the goal of improving the planning of rural electrification in developing countries. The tool uses GIS and terrain analysis to model the area under study, groups loads using a density-based clustering algorithm and it uses graph theory to find the least-costly electric network topology that can connect all the people in the area. The ultimate goal is to define the LCOE (Levelized Cost of Electricity) of decentralized and grid connected solutions.
         
+        st.info("Click on the left sidebar menu to navigate to the different apps")
+        
         The tool is an interactive application able to help stakeholder in the decision making process for electric systems in rural areas. In order to better understand the idea, please download the FAC-SIMILE.
         
         
