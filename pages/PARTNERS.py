@@ -31,5 +31,5 @@ st.write("""
        "For 30 years, Fondazione Cariplo has been promoting the life of communities, supporting those who operate in the area and are closest to people's needs. The distances within our communities are increasing, making them more fragmented and fragile. Today more than ever, however, there is a need to shorten these distances in order to have strong and inclusive communities, to support people's lives and to have strong institutions capable of reconciling different needs and directing resources and choices towards a better future for all and in which all can recognise themselves"
                """)
 
-    url1 = '[FONDAZIONE CARIPLO](https://www.fondazionecariplo.it/)'
-    st.markdown(url1, unsafe_allow_html=True)
+    url4 = '[FONDAZIONE CARIPLO](https://www.fondazionecariplo.it/)'
+    st.markdown(url4, unsafe_allow_html=True)
