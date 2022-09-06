@@ -115,8 +115,8 @@ st.write("""
 #if st.button('FONDAZIONE CARIPLO'):
  #   webbrowser.open_new_tab(url4)
     
-    url4 = '[FONDAZIONE CARIPLO](https://www.fondazionecariplo.it/)'
-    st.markdown(url4, unsafe_allow_html=True)
+ url4 = '[FONDAZIONE CARIPLO](https://www.fondazionecariplo.it/)'
+ st.markdown(url4, unsafe_allow_html=True)
     
 st.write("""***""")
   
